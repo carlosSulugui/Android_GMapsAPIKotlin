@@ -1,13 +1,13 @@
 # Lou Sizzo Devs
 ## _Kotlin - GMaps & Geocoder / ViewBinding_
 ### Algo breve
-El uso de Mapas se ha vuelto en nuestra vida diaria algo muy util en el momento de revisar alguna localización
+El uso de Mapas se ha vuelto en nuestra vida diaria algo muy util en el momento de revisar alguna localización.
 
 ### Descripción
 
 Esta pequeña app tiene la finalidad de hacer un uso rápido de mapas con Google Maps, ademas de uso de Markers, permisos para acceso a la localización
 y uso de Geocoder para captura de la dirección con solo la latitud y longitud, simplemente con cambiar el API Key de GMaps en el ***AndroidManifest*** dentro de la 
-etiqueta **meta-data** y listo!
+etiqueta **meta-data** y listo!.
 
 # 
 ### Languages and Tools used:
