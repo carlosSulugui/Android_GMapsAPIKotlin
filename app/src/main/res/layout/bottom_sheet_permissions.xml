@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gris"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="100dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                app:layout_anchorGravity="bottom"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/btnVaciarCarrito"
+                        android:layout_weight="4"
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_margin="10dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+
+                                android:layout_gravity="center"
+                                android:padding="5dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:clickable="true"
+                                android:src="@mipmap/usericon" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif-thin"
+                            android:id="@+id/folio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:layout_gravity="center"
+                            android:text="Requiere Permisos"
+                            android:textColor="@color/blanco" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:src="@mipmap/shield" />
+                <TextView
+                    android:padding="25dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:layout_gravity="center"
+                    android:text="Para que esta aplicación funcione correctamente es necesario de algunos permisos como:"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:paddingLeft="35dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="* Acceso a su GPS"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:padding="25dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:layout_gravity="center"
+                    android:text="Ninguno de estos accesos pondran en riesgo su privacidad ya que seran utilizados para la comunicación entre los negocios y repartidores.\n\n ¿Desea aceptar la autorización de estos permisos?"
+                    android:textColor="@color/negro" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@color/negro"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/blanco"
+                    android:id="@+id/btnCancelar"
+                    android:text="Cancelar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@color/blanco"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/verde_creativity"
+                    android:id="@+id/btnAceptarPermisos"
+                    android:text="SI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

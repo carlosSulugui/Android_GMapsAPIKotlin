@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorPrimary">#D81322</color>
+    <color name="colorPrimaryDark">#a2000c</color>
+    <color name="colorAccent">#D81322</color>
+    <color name="colorPressed">#82000a</color>
+
+
+    <!--<color name="colorPrimary">#D53591</color>
+    <color name="colorPrimaryDark">#e686bd</color>
+    <color name="colorAccent">#D53591</color>
+    <color name="colorPressed">#A0005C</color>-->
+
+    <color name="LightPink">#fae7f2</color>
+
+    <color name="color_text">#495459</color>
+
+    <color name="black_trans80">#14000000</color>
+
+    <color name="indicator_unselected">#4D000000</color>
+
+    <color name="blue_grey">#455A64</color>
+    <color name="red">#FF6347</color>
+    <color name="pink">#E91E63</color>
+    <color name="purple">#9C27B0</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#2196F3</color>
+    <color name="light_blue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="verde">#00796B</color>
+    <color name="verde_azul">#009688</color>
+    <color name="verde_azulclaro">#B2DFDB</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="lime">#CDDC39</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="deep_orange">#FF5722</color>
+    <color name="snackbar_action">#ffff7663</color>
+    <color name="menu_color">#607d8b</color>
+    <color name="negro">#212121</color>
+    <color name="gris">#EEEEEE</color>
+    <color name="gris_muy_claro">#F1F1F1</color>
+    <color name="gris_claro">#D7D7D7</color>
+    <color name="gris_oscuro">#607D8B</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro_slider">#222222</color>
+
+    <color name="colorIndivateTab">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorCardView">#f7f7f7</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_500">#a4a4a4</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_800">#212121</color>
+
+    <color name="dorado">#D6A603</color>
+    <color name="cafe">#A45C00</color>
+
+
+    <color name="azul_creativity">#1BA7E2</color>
+    <color name="amarillo_creativity">#F7E824</color>
+    <color name="rojo_creativity">#D81322</color>
+    <color name="rojo_cuzzi">#a2000c</color>
+
+    <color name="verde_creativity">#1FA953</color>
+    <color name="naranja_creativity">#EB8129</color>
+    <color name="rosa_fuerte_creativity">#DF1A84</color>
+    <color name="morado_creativity">#992986</color>
+    <color name="verde_claro_creativity">#A2C739</color>
+
+
+    <color name="naranja_data_creativity">#BA4229</color>
+    <color name="naranja_claro_data_creativity">#D75E2F</color>
+    <color name="naranja_mas_claro_data_creativity">#D8532A</color>
+    <color name="naranja_mas_raro_data_creativity">#E2886C</color>
+
+    <color name="gris_data_creativity">#C6C6C6</color>
+    <color name="gris_fuerte_data_creativity">#7D7D7D</color>
+    <color name="beige_data_creativity">#F7F3D7</color>
+
+    <color name="google_color_button">#DB4437</color>
+</resources>
